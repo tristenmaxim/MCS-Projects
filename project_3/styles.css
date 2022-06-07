@@ -24,3 +24,8 @@
     color: #FFFFFF;
     margin-left: 10%;
 }
+
+.pic {
+    max-width: 100%;
+    height: auto;
+}
