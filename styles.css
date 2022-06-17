@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;  
+    flex-direction:row;
+    align-items: center;
+    height: 900px;
+    width:100%;
+    left: 0px;
+    top: 0px;
+
+}
+.colored-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #E5E000;
+}
+.white-block{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    background: #ffffff;
+}
+
+.header {
+    height: 200px;
+}
+h1, p  {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Helvetica';
+    width: 100%;
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.pic {
+        background-image: url("/MCS-Projects/project_3/img.png");
+
+        width: 133%;  
+        height: 100%; 
+
+        object-fit: contain;
+        background-size: cover;
+}
+.links-block {
+    height: 100px;
+}
+.link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 29px;
+    font-style: normal;
+}
+.info{
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer {
+    height: 200px;
+}
+.footer-text {
+    color: #FFFFFF;
+}
