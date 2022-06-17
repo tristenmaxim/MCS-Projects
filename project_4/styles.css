@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    display: flex;
+    height: 60px;
+    background: #FE1A19;
+}
+
+.hieroglyph {
+    position: absolute;
+
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+
+    color: #FFFFFF;
+}
