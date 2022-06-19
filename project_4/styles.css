@@ -7,7 +7,7 @@
 .header {
     display: flex;
     height: 60px;
-    background: #FE1A19;
+    background: #FE1A19;;
 }
 
 .hieroglyph {
@@ -24,4 +24,40 @@
     align-items: center;
 
     color: #FFFFFF;
+}
+
+.container {
+    padding: 20px 0;
+    color: #fff;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.recepie {
+    box-sizing: border-box;
+
+    width: 400px;
+    height: 800px;
+
+    border: 5px solid #E5E000;
+    border-radius: 30px;
+
+    justify-content: center;
+    flex-wrap: wrap;  
+    flex-direction: row;
+    align-items: center;
 }
