@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+.header {
+    position: fixed;
+    top: 100;
+    left: 100;
+    z-index: 1;
+
+    display: flex;
+    height: 140px;
+    width: 100%;
+
+    align-items: center;
+    font-size: 50px;
+    line-height: 57px;
+
+    color: #E50043; 
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+    .links {
+        display: flex;
+        margin-left: 950px;
+        width: 440px;
+        justify-content:space-between;
+    }
+
+.firstscreen {
+    display: flex;
+    height: 950px;
+    width: 1440px;
+    top: 140px;
+    position: absolute;
+    
+    font-size: 100px;
+
+    justify-content: center;
+    align-items: center;
+    
+    color: #E50043;
+
+    background-image: url("/MCS-Projects/project_5/evian_origins_logo.png");
+    object-fit: contain;
+    background-size: cover;
+}
+
+.block{
+    height: 430px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
