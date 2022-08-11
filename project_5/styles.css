@@ -57,6 +57,7 @@
     display: flex;
     width: 1040px;
     margin-left: 200px;
+
 }
 
 .block{
@@ -64,7 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+        
 }
 
 .border {
@@ -88,9 +89,18 @@
 }
 
 .bottles {
-    height: 970px;
+    height: 1800px;
+    width: 1040px;
     position: absolute;
     display: flex;
-    justify-content:  space-between;
+    justify-content:space-between;
+}
+
+.bottle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    object-fit: cover;
 }
 
